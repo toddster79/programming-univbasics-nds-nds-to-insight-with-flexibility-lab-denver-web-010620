@@ -55,7 +55,7 @@ def movies_with_director_key(name, movies_collection)
     movies_collection[index] = movie_with_director_name(name,movies_collection[index])
     index +=1
   end
-  movies_collection
+  return movies_collection
 end
 
 
@@ -82,7 +82,7 @@ def gross_per_studio(collection)
     index += 1
   end
 
-  studios
+  return studios
 end
 
 def movies_with_directors_set(source)
